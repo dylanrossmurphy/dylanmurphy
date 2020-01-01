@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  <!--font-family: 'Libre Franklin', sans-serif;-->
+  font-family:Helvetica, serif;
+  margin: 0;
+  
+}
+.container-width{
+  width:90%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.flex-sect{
+  padding:100px 0;
+  font-family:Helvetica, serif;
+  background-color:#ffffff;
+}
+.flex-title{
+  margin-bottom:15px;
+  font-size:6em;
+  text-align:center;
+  font-weight:700;
+  padding:5px;
+  color:#4795D8;
+}
+.flex-desc{
+  margin-bottom:55px;
+  font-size:1em;
+  text-align:left;
+  padding:5px;
+  color:#000000;
+}
+.flex-button{
+  margin-bottom:55px;
+  font-size:1em;
+  text-align:center;
+  padding:5px;
+  color:#000000;
+}
+.flex-home{
+  margin-bottom:15px;
+  font-size:0.8em;
+  text-align:center;
+  padding:5px;
+  color:#000000;
+}
+body{
+  background-color:#ffffff;
+}
+.row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#ioejw{
+  color:#000000;
+}
+#i0sdn{
+  color:#000000;
+}
+#iqqu3{
+  color:#000000;
+}
+#i7el4{
+  height:99px;
+}
+@media (max-width: 768px){
+  .row{
+    flex-wrap:wrap;
+  }
+}
+
+
+:root {
+  --mainColor: #4795D8;
+}
+
+
+p {
+
+ line-height: 1.5em;
+
+
+}
+
+.tab {
+  font-size:1.5em;
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #232323;
+  text-decoration: none;
+  transition: background-size .3s;
+}
+
+.tab:hover {
+  background-size: 4px 50px;
+}
+
+.btn {
+  background-color: #4795D8;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  cursor: pointer;
+  font-size: 1.3em;
+
+}
+
+.btnBack {
+  background-color: #4795D8;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  cursor: pointer;
+  font-size: 1.3em;
+    text-decoration: none;
+
+}
+
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.btnBack:hover {
+  background-color: RoyalBlue;
+}
+
+
+.ignore-css{all:unset;}
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
